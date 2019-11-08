@@ -413,3 +413,5 @@ console.log(pat);
 console.log(pop.toString());
 
 console.log(typeof typeof 1);
+
+console.log("string");
