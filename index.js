@@ -396,22 +396,3 @@ ask(
 // function myFunc(myObj) {
 //     document.getElementById("info").innerHTML = myObj.title;
 // }
-
-
-var srt = "how are you";
-var patt = /o/;
-var res = patt.exec(srt);
-console.log(res[1] + res.index + res.input);
-document.write(res);
-var str = "Every man in the world! Every woman on earth!";
-var pop = /man/g;
-var pat = str.replace(pop, "person");
-pop = /(wo)?man/g;
-pop.compile(pop);
-pat = str.replace(pop, "person");
-console.log(pat);
-console.log(pop.toString());
-
-console.log(typeof typeof 1);
-
-console.log("string");
